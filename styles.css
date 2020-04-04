@@ -1,0 +1,42 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#info {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-family: monospace;
+  text-align: right;
+  font-size: 10px;
+}
+
+h1, h2 {
+  font-size: 1em;
+}
+
+p {
+  margin: 0px;
+}
+
+a, a:visited, a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}

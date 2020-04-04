@@ -24,52 +24,12 @@
 
   <title>Worley Mirror</title>
 
-  <style>
-    html, body {
-      margin: 0px;
-      padding: 0px;
-      overflow: hidden;
-      height: 100%;
-      width: 100%;
-    }
-
-    #container {
-      display: flex;
-      height: 100%;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-
-    #info {
-      position: fixed;
-      bottom: 2rem;
-      right: 2rem;
-      font-family: monospace;
-      text-align: right;
-      font-size: 10px;
-    }
-
-    h1, h2 {
-      font-size: 1em;
-    }
-
-    a, a:visited, a:link {
-      color: black;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: blue;
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="./styles.css">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 </head>
 <body>
-  <script src="./sketch.js"></script>
   <div id="container"></div>
   <div id="info">
     <h1>Worley Mirror</h1>
@@ -77,5 +37,7 @@
     <p>glsl, p5.js, ml5.js</p>
     <p><a href="https://github.com/violetcraze/worley-mirror">source code</a></p>
   </div>
+
+  <script src="./sketch.js"></script>
 </body>
 </html>
