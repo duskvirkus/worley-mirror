@@ -1,10 +1,10 @@
 # Worley Mirror
 
-<img src="https://github.com/violetcraze/worley-mirror/blob/master/screenshot/worley-mirror.gif" width="100%" alt="gif recording of worely mirror web page" />
+<img src="https://github.com/duskvirkus/worley-mirror/blob/master/screenshot/worley-mirror.gif" width="100%" alt="gif recording of worely mirror web page" />
 
 A minimal creative coding project that uses glsl, p5.js, and ml5.js to create a Worley Noise inspired mirror in the browser.
 
-[Live site avaliable at https://violetcraze.github.io/worley-mirror/.](https://violetcraze.github.io/worley-mirror/)
+[Live site avaliable at https://duskvirkus.github.io/worley-mirror/.](https://duskvirkus.github.io/worley-mirror/)
 
 ## Resources
 
